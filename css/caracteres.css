@@ -1,12 +1,28 @@
-@media screen and (max-width:768px){ 
+/*
+    author = Mauro - 1984.cl
+*/
 
-  div#tablas form{display: block;}
+@media screen and (max-width:480px){ 
+  div#tablas form{display: block !important;}
+  .container table{width: 43% !important;color:magenta;}
+  .navbar-header .twitter-share-button{display: none !important;}
+  .search-reset{display: inline;}
+}
+@media screen and (min-width:480px) and (max-width:630px){ 
+  div#tablas form{display: block !important;}
   a{float: left;display: inline;}
-  .container table{width: 43%;}
+  .container table{width: 45% !important;color:green;}
+  .movil{display: block;}
+  .navbar-header .twitter-share-button{display: none !important;}
+}
+@media screen and (min-width:630px) and (max-width:768px){ 
+  div#tablas form{display: block !important;}
+  a{float: left;display: inline;}
+  .container table{width: 43%;color:blue;}
   .movil{display: block;}
   .navbar-header .twitter-share-button{display: inline;}
-
 }
+
 
 .navbar{background-image: url("http://1984.cl/ad1984/img/background.jpg");background-repeat: repeat;box-shadow: 0px 2px 4px #ccc}
 .navbar-header .twitter-share-button{float: left;display: inline;margin-top: 16px}
@@ -22,29 +38,29 @@ footer{color:#bbb;font-size: .9em;margin: 20px 0}
 }
  
 .search-input {
-    width: 190px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #666;
-    margin: 0;
-    padding: 7px 35px 7px 8px;
-    border: solid 1px #ccc;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    border-radius: 15px;
-    -webkit-box-shadow: inset 1px 1px 1px #e5e5e5;
-    -moz-box-shadow: inset 1px 1px 1px #e5e5e5;
-    -ms-box-shadow: inset 1px 1px 1px #e5e5e5;
-    -o-box-shadow: inset 1px 1px 1px #e5e5e5;
-    box-shadow: inset 1px 1px 1px #e5e5e5;
+  width: 190px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 7px 35px 7px 8px;
+  border: solid 1px #ccc;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 1px 1px 1px #e5e5e5;
+  -moz-box-shadow: inset 1px 1px 1px #e5e5e5;
+  -ms-box-shadow: inset 1px 1px 1px #e5e5e5;
+  -o-box-shadow: inset 1px 1px 1px #e5e5e5;
+  box-shadow: inset 1px 1px 1px #e5e5e5;
 }
  
 .inp:focus {
-    border: sold 1px #bbb;
-    background-color: #f8f8f8;
-    outline: none;
+  border: sold 1px #bbb;
+  background-color: #f8f8f8;
+  outline: none;
 }
 
 .search-reset {

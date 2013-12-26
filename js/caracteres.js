@@ -6,13 +6,13 @@ $(document).ready(function(){
     // Retrieve the input field text and reset the count to zero
     var filter = $(this).val(), count = 0;
     // if(!filter){
-    //     $(".commentlist tr").hide();
+    //     $(".tab tr").hide();
     //     return;
     // }
 
     var regex = new RegExp(filter, "i");
     // Loop through the comment list
-    $(".commentlist tr").each(function(){
+    $(".tab tr").each(function(){
 
         // If the list item does not contain the text phrase fade it out
         if ($(this).text().search(regex) < 0) {
@@ -45,7 +45,7 @@ $(document).ready(function(){
         }
     });
     $('.search-reset').click(function(event) {
-        $(".commentlist tr").show();
+        $(".tab tr").show();
         $('.inp').val('');
         $('.search-reset').fadeOut();
         });
