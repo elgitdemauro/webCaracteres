@@ -6,7 +6,7 @@
   div#tablas form{display: block !important;}
   .container table{width: 43% !important;color:magenta;}
   .navbar-header .twitter-share-button{display: none !important;}
-  .search-reset{display: inline;}
+  .form-group .search-reset{top:17px;}
 }
 @media screen and (min-width:480px) and (max-width:630px){ 
   div#tablas form{display: block !important;}
@@ -14,6 +14,7 @@
   .container table{width: 45% !important;color:green;}
   .movil{display: block;}
   .navbar-header .twitter-share-button{display: none !important;}
+  .form-group .search-reset{top:17px;}
 }
 @media screen and (min-width:630px) and (max-width:768px){ 
   div#tablas form{display: block !important;}
@@ -21,6 +22,7 @@
   .container table{width: 43%;color:blue;}
   .movil{display: block;}
   .navbar-header .twitter-share-button{display: inline;}
+  .form-group .search-reset{top:17px;}
 }
 
 
@@ -34,7 +36,6 @@ footer{color:#bbb;font-size: .9em;margin: 20px 0}
 .search {
   position: relative;
   display: block;
-  float: left;
 }
  
 .search-input {
