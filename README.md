@@ -1,4 +1,4 @@
-caracteres
+Web Caracteres HTML
 ==========
 
 Web site with character codes for Developers.
