@@ -1,5 +1,4 @@
 Special Caracteres in HTML
-
 ==========
 
 Web site with character codes for Developers.
