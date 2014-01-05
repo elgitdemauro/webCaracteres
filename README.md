@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 Special Caracteres in HTML
-=======
-Special Caracteres in HTML.
->>>>>>> 553e73cecba1f42702169b770922409772386d03
+
 ==========
 
 Web site with character codes for Developers.
