@@ -1,7 +1,7 @@
 Special Caracteres in HTML
 ==========
 
-Web site with Special Caracteres in HTML codes.
+Responsive Web site with Special Caracteres in HTML codes.
 
 Demo
 
