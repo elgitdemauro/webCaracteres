@@ -1,4 +1,4 @@
-Special Caracteres in HTML
+Special Characters in HTML
 ==========
 
 Responsive Web site with Special Caracteres in HTML codes.
